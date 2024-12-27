@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 // CORS Configuration
 const corsOptions = {
-  origin: ['http://127.0.0.1:5500', 'http://localhost:3000'], // Allow multiple origins
+  origin: ['hhttps://stir-nu.vercel.app', 'http://localhost:3000'], // Allow multiple origins
   optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
