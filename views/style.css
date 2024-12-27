@@ -1,0 +1,60 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background: #f4f4f4;
+  }
+  
+  h1 {
+    color: #007BFF;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Trends List Styling */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between; /* Align content to left and right */
+    align-items: center; /* Vertically align items */
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trend-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .posts-count {
+    font-size: 14px;
+    color: #555;
+    background: #e9ecef;
+    padding: 5px 10px;
+    border-radius: 12px;
+    text-align: center;
+    min-width: 60px; /* Ensure consistency in width */
+  }
+  
