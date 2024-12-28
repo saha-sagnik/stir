@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 // CORS Configuration
 const corsOptions = {
-  origin: ['https://stir-ykbo.vercel.app', 'http://localhost:3000'], // Allow multiple origins
+  origin: ['https://stir123.netlify.app', 'http://localhost:3000'], // Allow multiple origins
   optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
